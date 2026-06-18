@@ -1,0 +1,89 @@
+{
+    "info": {
+        "_postman_id": "0d2ee0f9-9ce6-4415-af11-c4597c739182",
+        "name": "Authentication-system",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "31377732"
+    },
+    "item": [
+        {
+            "name": "register",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n  \"fullName\": \"Gaurav Kumar\",\r\n  \"email\": \"gaurav@gmail.com\",\r\n  \"userName\": \"gaurav\",\r\n  \"password\": \"12345678\",\r\n  \"phoneNumber\": \"+919279558072\"\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{server}}/users/register",
+                    "host": [
+                        "{{server}}"
+                    ],
+                    "path": [
+                        "users",
+                        "register"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "login",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"email\": \"gaurav@gmail.com\",\r\n    \"username\": \"gaurav\",\r\n    \"password\": \"12345678\"\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{server}}/users/login",
+                    "host": [
+                        "{{server}}"
+                    ],
+                    "path": [
+                        "users",
+                        "login"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "logout",
+            "request": {
+                "auth": {
+                    "type": "noauth"
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": ""
+                },
+                "url": {
+                    "raw": "{{server}}/users/logout",
+                    "host": [
+                        "{{server}}"
+                    ],
+                    "path": [
+                        "users",
+                        "logout"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
