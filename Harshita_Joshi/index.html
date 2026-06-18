@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elexoplus - Employee Management System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="https://www.elexoplus.in/assets/logo-BJqIBdaq.png" alt="Elexoplus Logo">
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <button class="btn btn-primary" id="openModalBtn">Get Started</button>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="badge">Simple & Powerful HR Tool</span>
+                <h1>Manage Your Team <br><span class="text-blue">Smarter & Faster</span></h1>
+                <p>Simplify payroll, track attendance, monitor performance, and optimize daily workforce productivity all in one beautifully simple dashboard.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary open-modal-trigger">Start Free Trial</button>
+                    <a href="#features" class="btn btn-secondary">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-graphic">
+                <div class="dashboard-preview">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="window-title">Elexoplus Dashboard</span>
+                    </div>
+                    <div class="widget">
+                        <div class="widget-info">
+                            <p class="widget-label">Total Active Employees</p>
+                            <p class="widget-value">1,248</p>
+                        </div>
+                        <div class="widget-icon bg-light-blue"><i class="fa-solid fa-users"></i></div>
+                    </div>
+                    <div class="widget-grid">
+                        <div class="widget small bg-light-green">
+                            <p class="widget-label">Attendance Today</p>
+                            <p class="widget-value text-green">96.4%</p>
+                        </div>
+                        <div class="widget small bg-light-purple">
+                            <p class="widget-label">Pending Tasks</p>
+                            <p class="widget-value text-purple">12 Tasks</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Everything You Need to Scale Operations</h2>
+                <p>Stop using messy spreadsheets. Take control of your HR workflow with robust features.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box icon-blue"><i class="fa-solid fa-address-card"></i></div>
+                    <h3>Employee Profiles</h3>
+                    <p>Centralize all worker details, personal records, contractual documents, and history safely in the cloud.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box icon-green"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Time & Attendance</h3>
+                    <p>Track precise shifts, clock-ins, remote attendance, and handle leave requests flawlessly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box icon-purple"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+                    <h3>Automated Payroll</h3>
+                    <p>Generate instant error-free payslips, compute bonuses, deductions, and manage compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container contact-content">
+            <h2>Ready to Revolutionize Your Workplace?</h2>
+            <p>Get in touch with our solution experts today to build a tailored plan for your company.</p>
+            <form class="contact-form" id="contactForm">
+                <input type="email" placeholder="Enter work email address" required>
+                <button type="submit" class="btn btn-primary">Request Demo</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <img src="https://www.elexoplus.in/assets/logo-BJqIBdaq.png" alt="Elexoplus" class="footer-logo">
+            <p>&copy; 2026 Elexoplus. All rights reserved. Created for FSD Internship.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="signUpModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModalBtn">&times;</button>
+            <h3>Create Admin Account</h3>
+            <p>Empower your HR department with Elexoplus tools today.</p>
+            <form class="modal-form" id="registerForm">
+                <div class="form-group">
+                    <label>Company Name</label>
+                    <input type="text" required placeholder="e.g., Acme Corp">
+                </div>
+                <div class="form-group">
+                    <label>Admin Email</label>
+                    <input type="email" required placeholder="name@company.com">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" required placeholder="Choose a secure password">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Register Dashboard</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
