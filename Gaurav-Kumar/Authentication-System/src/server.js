@@ -17,9 +17,18 @@ app.use(express.json({
     credential: true
 }))
 
+app.use(express.urlencoded({
+    limit: "16kb",              
+    extended: true,
+}))
+
 app.use(cookieParser())
 
-app.listen(process.env.PORT || 4000, ()=>{
+app.listen(process.env.PORT || 8000, ()=>{
     connectDB()
     console.log(`server is running on port ${process.env.PORT}`);
 })
+
+import userRouter from "./routes/user.routes.js"
+
+app.use("/api/v1/users", userRouter)
