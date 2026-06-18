@@ -11,16 +11,9 @@ CREATE TABLE employee_transfers (
     transfer_date DATE NOT NULL,
     transfer_reason TEXT NOT NULL,
     approved_by_employee_id CHAR(36),
-    status ENUM(
-        'Pending',
-        'Approved',
-        'Rejected'
-    ) NOT NULL DEFAULT 'Pending',
-    created_at DATETIME NOT NULL
-        DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME NOT NULL
-        DEFAULT CURRENT_TIMESTAMP
-        ON UPDATE CURRENT_TIMESTAMP,
+    status ENUM('Pending','Approved','Rejected') NOT NULL DEFAULT 'Pending',
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     CONSTRAINT fk_transfer_employee
         FOREIGN KEY (employee_id)

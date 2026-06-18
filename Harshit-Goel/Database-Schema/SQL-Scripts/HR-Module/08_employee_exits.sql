@@ -4,27 +4,15 @@ CREATE TABLE employee_exits (
 
     exit_id CHAR(36) PRIMARY KEY,
     employee_id CHAR(36) NOT NULL,
-    exit_type ENUM(
-        'Resignation',
-        'Termination',
-        'Retirement',
-        'Contract End'
-    ) NOT NULL,
+    exit_type ENUM('Resignation','Termination','Retirement','Contract End') NOT NULL,
     resignation_date DATE,
     last_working_date DATE NOT NULL,
     exit_reason TEXT NOT NULL,
     approved_by_employee_id CHAR(36),
-    exit_status ENUM(
-        'Pending',
-        'Approved',
-        'Completed'
-    ) NOT NULL DEFAULT 'Pending',
+    exit_status ENUM('Pending','Approved','Completed') NOT NULL DEFAULT 'Pending',
     remarks TEXT,
-    created_at DATETIME NOT NULL
-        DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME NOT NULL
-        DEFAULT CURRENT_TIMESTAMP
-        ON UPDATE CURRENT_TIMESTAMP,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     CONSTRAINT fk_exit_employee
         FOREIGN KEY (employee_id)

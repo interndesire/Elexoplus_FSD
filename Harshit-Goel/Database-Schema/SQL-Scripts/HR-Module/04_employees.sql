@@ -9,37 +9,17 @@ CREATE TABLE employees (
     email VARCHAR(255) NOT NULL UNIQUE,
     phone VARCHAR(15) NOT NULL UNIQUE,
     date_of_birth DATE,
-    gender ENUM(
-        'Male',
-        'Female',
-        'Other'
-    ) NOT NULL,
+    gender ENUM('Male','Female','Other') NOT NULL,
     profile_image_url VARCHAR(500),
     department_id CHAR(36) NOT NULL,
     designation_id CHAR(36) NOT NULL,
     date_of_joining DATE NOT NULL,
-    employment_type ENUM(
-        'Full Time',
-        'Part Time',
-        'Intern',
-        'Contract',
-        'Consultant'
-    ) NOT NULL,
-    employment_status ENUM(
-        'Active',
-        'Inactive',
-        'On Leave',
-        'Terminated'
-    ) NOT NULL DEFAULT 'Active',
-    work_location ENUM(
-        'Office',
-        'Remote',
-        'Hybrid'
-    ) NOT NULL DEFAULT 'Office',
+    employment_type ENUM('Full Time','Part Time','Intern','Contract','Consultant') NOT NULL,
+    employment_status ENUM('Active','Inactive','On Leave','Terminated') NOT NULL DEFAULT 'Active',
+    work_location ENUM('Office','Remote','Hybrid') NOT NULL DEFAULT 'Office',
     reporting_manager_id CHAR(36),
     created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
-    ON UPDATE CURRENT_TIMESTAMP,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
     CONSTRAINT fk_employee_department
         FOREIGN KEY (department_id)
