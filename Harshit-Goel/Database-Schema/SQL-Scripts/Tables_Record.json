@@ -1,0 +1,98 @@
+[
+  {
+    "Tables_in_employee_management_system": "attendance"
+  },
+  {
+    "Tables_in_employee_management_system": "client_visits"
+  },
+  {
+    "Tables_in_employee_management_system": "clients"
+  },
+  {
+    "Tables_in_employee_management_system": "daily_activity_reports"
+  },
+  {
+    "Tables_in_employee_management_system": "deductions"
+  },
+  {
+    "Tables_in_employee_management_system": "department_designations"
+  },
+  {
+    "Tables_in_employee_management_system": "departments"
+  },
+  {
+    "Tables_in_employee_management_system": "designations"
+  },
+  {
+    "Tables_in_employee_management_system": "employee_addresses"
+  },
+  {
+    "Tables_in_employee_management_system": "employee_documents"
+  },
+  {
+    "Tables_in_employee_management_system": "employee_exits"
+  },
+  {
+    "Tables_in_employee_management_system": "employee_transfers"
+  },
+  {
+    "Tables_in_employee_management_system": "employees"
+  },
+  {
+    "Tables_in_employee_management_system": "expenses"
+  },
+  {
+    "Tables_in_employee_management_system": "incentives"
+  },
+  {
+    "Tables_in_employee_management_system": "lead_status_history"
+  },
+  {
+    "Tables_in_employee_management_system": "leads"
+  },
+  {
+    "Tables_in_employee_management_system": "leave_approvals"
+  },
+  {
+    "Tables_in_employee_management_system": "leave_balances"
+  },
+  {
+    "Tables_in_employee_management_system": "leave_requests"
+  },
+  {
+    "Tables_in_employee_management_system": "leave_types"
+  },
+  {
+    "Tables_in_employee_management_system": "payrolls"
+  },
+  {
+    "Tables_in_employee_management_system": "payslips"
+  },
+  {
+    "Tables_in_employee_management_system": "roles"
+  },
+  {
+    "Tables_in_employee_management_system": "salary_structures"
+  },
+  {
+    "Tables_in_employee_management_system": "sessions"
+  },
+  {
+    "Tables_in_employee_management_system": "target_types"
+  },
+  {
+    "Tables_in_employee_management_system": "targets"
+  },
+  {
+    "Tables_in_employee_management_system": "territories"
+  },
+  {
+    "Tables_in_employee_management_system": "territory_assignments"
+  },
+  {
+    "Tables_in_employee_management_system": "user_roles"
+  },
+  {
+    "Tables_in_employee_management_system": "users"
+  }
+]

@@ -4,8 +4,8 @@ CREATE TABLE sessions (
 
     session_id CHAR(36) PRIMARY KEY,
     user_id CHAR(36) NOT NULL,
-    access_token VARCHAR(1000) NOT NULL,
-    refresh_token VARCHAR(1000) NOT NULL UNIQUE,
+    access_token VARCHAR(225) NOT NULL,
+    refresh_token VARCHAR(225) NOT NULL UNIQUE,
     status ENUM( 'Active', 'Expired', 'Revoked') NOT NULL DEFAULT 'Active',
     expires_at DATETIME NOT NULL,
     last_activity_at DATETIME,
