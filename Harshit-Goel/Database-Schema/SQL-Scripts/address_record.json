@@ -1,0 +1,54 @@
+[
+  {
+    "address_id": "9f936b3f-6c0f-11f1-adb9-005056c00001",
+    "employee_id": "46998907-6c0e-11f1-adb9-005056c00001",
+    "address_line_1": "Sector 21",
+    "address_line_2": "Near Market",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "country": "India",
+    "postal_code": "122001",
+    "address_type": "Current",
+    "created_at": "2026-06-20 00:19:38",
+    "updated_at": "2026-06-20 00:19:38"
+  },
+  {
+    "address_id": "9f995f99-6c0f-11f1-adb9-005056c00001",
+    "employee_id": "7e3e2f54-6c0e-11f1-adb9-005056c00001",
+    "address_line_1": "Rajendra Nagar",
+    "address_line_2": "Block A",
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "postal_code": "110060",
+    "address_type": "Current",
+    "created_at": "2026-06-20 00:19:38",
+    "updated_at": "2026-06-20 00:19:38"
+  },
+  {
+    "address_id": "9f9965cf-6c0f-11f1-adb9-005056c00001",
+    "employee_id": "7e3e629c-6c0e-11f1-adb9-005056c00001",
+    "address_line_1": "Civil Lines",
+    "address_line_2": null,
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "postal_code": "302006",
+    "address_type": "Current",
+    "created_at": "2026-06-20 00:19:38",
+    "updated_at": "2026-06-20 00:19:38"
+  },
+  {
+    "address_id": "9f997c96-6c0f-11f1-adb9-005056c00001",
+    "employee_id": "7e3e77a9-6c0e-11f1-adb9-005056c00001",
+    "address_line_1": "MG Road",
+    "address_line_2": "Apartment 302",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "postal_code": "411001",
+    "address_type": "Current",
+    "created_at": "2026-06-20 00:19:38",
+    "updated_at": "2026-06-20 00:19:38"
+  }
+]

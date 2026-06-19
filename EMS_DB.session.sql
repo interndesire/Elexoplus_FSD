@@ -1,1 +1,1 @@
-SELECT * FROM department_designations;
+SELECT * FROM employee_addresses;
