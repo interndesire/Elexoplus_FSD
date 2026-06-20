@@ -1,34 +1,38 @@
 [
   {
+    "employee_id": "a5cfce07-6cd6-11f1-adb9-005056c00001",
     "employee_code": "EMP001",
     "first_name": "Rahul",
-    "last_name": "Sharma",
-    "email": "rahul.sharma@elexoplus.com",
-    "department_id": "01fb2579-6c0d-11f1-adb9-005056c00001",
-    "designation_id": "6b4f5f63-6c0d-11f1-adb9-005056c00001"
+    "last_name": "Sharma"
   },
   {
+    "employee_id": "a5d2e537-6cd6-11f1-adb9-005056c00001",
     "employee_code": "EMP002",
-    "first_name": "Priya",
-    "last_name": "Verma",
-    "email": "priya.verma@elexoplus.com",
-    "department_id": "01fd383a-6c0d-11f1-adb9-005056c00001",
-    "designation_id": "6b4f6294-6c0d-11f1-adb9-005056c00001"
+    "first_name": "Neha",
+    "last_name": "Singh"
   },
   {
+    "employee_id": "a5d2f9c6-6cd6-11f1-adb9-005056c00001",
     "employee_code": "EMP003",
     "first_name": "Amit",
-    "last_name": "Gupta",
-    "email": "amit.gupta@elexoplus.com",
-    "department_id": "01fd72d6-6c0d-11f1-adb9-005056c00001",
-    "designation_id": "6b4f6443-6c0d-11f1-adb9-005056c00001"
+    "last_name": "Gupta"
   },
   {
+    "employee_id": "a5d2fda7-6cd6-11f1-adb9-005056c00001",
     "employee_code": "EMP004",
-    "first_name": "Neha",
-    "last_name": "Singh",
-    "email": "neha.singh@elexoplus.com",
-    "department_id": "01fb2579-6c0d-11f1-adb9-005056c00001",
-    "designation_id": "6b4f3c2f-6c0d-11f1-adb9-005056c00001"
+    "first_name": "Priya",
+    "last_name": "Verma"
+  },
+  {
+    "employee_id": "a5d2ff63-6cd6-11f1-adb9-005056c00001",
+    "employee_code": "EMP005",
+    "first_name": "Rohit",
+    "last_name": "Mehta"
+  },
+  {
+    "employee_id": "a5d30a6f-6cd6-11f1-adb9-005056c00001",
+    "employee_code": "EMP006",
+    "first_name": "Karan",
+    "last_name": "Malhotra"
   }
 ]

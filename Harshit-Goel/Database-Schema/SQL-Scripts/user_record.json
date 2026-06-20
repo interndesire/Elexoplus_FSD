@@ -1,0 +1,32 @@
+[
+  {
+    "user_id": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "username": "rahul.sharma",
+    "employee_id": "a5cfce07-6cd6-11f1-adb9-005056c00001"
+  },
+  {
+    "user_id": "a5fd8d91-6cd7-11f1-adb9-005056c00001",
+    "username": "neha.singh",
+    "employee_id": "a5d2e537-6cd6-11f1-adb9-005056c00001"
+  },
+  {
+    "user_id": "a5fd9a7e-6cd7-11f1-adb9-005056c00001",
+    "username": "amit.gupta",
+    "employee_id": "a5d2f9c6-6cd6-11f1-adb9-005056c00001"
+  },
+  {
+    "user_id": "a5fd9b85-6cd7-11f1-adb9-005056c00001",
+    "username": "priya.verma",
+    "employee_id": "a5d2fda7-6cd6-11f1-adb9-005056c00001"
+  },
+  {
+    "user_id": "a5fd9c20-6cd7-11f1-adb9-005056c00001",
+    "username": "rohit.mehta",
+    "employee_id": "a5d2ff63-6cd6-11f1-adb9-005056c00001"
+  },
+  {
+    "user_id": "a5fd9cdd-6cd7-11f1-adb9-005056c00001",
+    "username": "karan.malhotra",
+    "employee_id": "a5d30a6f-6cd6-11f1-adb9-005056c00001"
+  }
+]

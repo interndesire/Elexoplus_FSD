@@ -1,0 +1,35 @@
+[
+  {
+    "approval_id": "ab7a9295-6cd8-11f1-adb9-005056c00001",
+    "leave_request_id": "304cbcb7-6cd8-11f1-adb9-005056c00001",
+    "approver_employee_id": "a5cfce07-6cd6-11f1-adb9-005056c00001",
+    "approval_level": "ASM",
+    "decision": "Approved",
+    "remarks": "Approved by ASM",
+    "action_date": "2026-06-21 00:18:47",
+    "created_at": "2026-06-21 00:18:47",
+    "updated_at": "2026-06-21 00:18:47"
+  },
+  {
+    "approval_id": "ab7b7131-6cd8-11f1-adb9-005056c00001",
+    "leave_request_id": "304d276c-6cd8-11f1-adb9-005056c00001",
+    "approver_employee_id": "a5d2fda7-6cd6-11f1-adb9-005056c00001",
+    "approval_level": "HR",
+    "decision": "Pending",
+    "remarks": "Waiting for HR review",
+    "action_date": "2026-06-21 00:18:47",
+    "created_at": "2026-06-21 00:18:47",
+    "updated_at": "2026-06-21 00:18:47"
+  },
+  {
+    "approval_id": "ab7b76aa-6cd8-11f1-adb9-005056c00001",
+    "leave_request_id": "304d2aa4-6cd8-11f1-adb9-005056c00001",
+    "approver_employee_id": "a5cfce07-6cd6-11f1-adb9-005056c00001",
+    "approval_level": "ASM",
+    "decision": "Pending",
+    "remarks": "Under ASM review",
+    "action_date": "2026-06-21 00:18:47",
+    "created_at": "2026-06-21 00:18:47",
+    "updated_at": "2026-06-21 00:18:47"
+  }
+]

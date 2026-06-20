@@ -1,0 +1,17 @@
+[
+  {
+    "leave_request_id": "304cbcb7-6cd8-11f1-adb9-005056c00001",
+    "employee_id": "a5d2e537-6cd6-11f1-adb9-005056c00001",
+    "status": "Approved"
+  },
+  {
+    "leave_request_id": "304d276c-6cd8-11f1-adb9-005056c00001",
+    "employee_id": "a5d2f9c6-6cd6-11f1-adb9-005056c00001",
+    "status": "Pending"
+  },
+  {
+    "leave_request_id": "304d2aa4-6cd8-11f1-adb9-005056c00001",
+    "employee_id": "a5d30a6f-6cd6-11f1-adb9-005056c00001",
+    "status": "Under Review"
+  }
+]

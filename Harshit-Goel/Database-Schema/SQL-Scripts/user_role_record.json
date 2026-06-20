@@ -1,0 +1,62 @@
+[
+  {
+    "user_role_id": "0f9f95bb-6cd9-11f1-adb9-005056c00001",
+    "user_id": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "role_id": "bb656e0e-6cd3-11f1-adb9-005056c00001",
+    "assigned_by": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "assigned_at": "2026-06-21 00:21:35",
+    "status": "Active",
+    "created_at": "2026-06-21 00:21:35",
+    "updated_at": "2026-06-21 00:21:35"
+  },
+  {
+    "user_role_id": "0fa2a176-6cd9-11f1-adb9-005056c00001",
+    "user_id": "a5fd8d91-6cd7-11f1-adb9-005056c00001",
+    "role_id": "bb656f53-6cd3-11f1-adb9-005056c00001",
+    "assigned_by": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "assigned_at": "2026-06-21 00:21:35",
+    "status": "Active",
+    "created_at": "2026-06-21 00:21:35",
+    "updated_at": "2026-06-21 00:21:35"
+  },
+  {
+    "user_role_id": "0fa2a64c-6cd9-11f1-adb9-005056c00001",
+    "user_id": "a5fd9a7e-6cd7-11f1-adb9-005056c00001",
+    "role_id": "bb656f53-6cd3-11f1-adb9-005056c00001",
+    "assigned_by": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "assigned_at": "2026-06-21 00:21:35",
+    "status": "Active",
+    "created_at": "2026-06-21 00:21:35",
+    "updated_at": "2026-06-21 00:21:35"
+  },
+  {
+    "user_role_id": "0fa2a8b6-6cd9-11f1-adb9-005056c00001",
+    "user_id": "a5fd9b85-6cd7-11f1-adb9-005056c00001",
+    "role_id": "bb656a65-6cd3-11f1-adb9-005056c00001",
+    "assigned_by": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "assigned_at": "2026-06-21 00:21:35",
+    "status": "Active",
+    "created_at": "2026-06-21 00:21:35",
+    "updated_at": "2026-06-21 00:21:35"
+  },
+  {
+    "user_role_id": "0fa2be15-6cd9-11f1-adb9-005056c00001",
+    "user_id": "a5fd9c20-6cd7-11f1-adb9-005056c00001",
+    "role_id": "bb653afa-6cd3-11f1-adb9-005056c00001",
+    "assigned_by": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "assigned_at": "2026-06-21 00:21:35",
+    "status": "Active",
+    "created_at": "2026-06-21 00:21:35",
+    "updated_at": "2026-06-21 00:21:35"
+  },
+  {
+    "user_role_id": "0fa2bfc4-6cd9-11f1-adb9-005056c00001",
+    "user_id": "a5fd9cdd-6cd7-11f1-adb9-005056c00001",
+    "role_id": "bb656f53-6cd3-11f1-adb9-005056c00001",
+    "assigned_by": "a5fb2cfb-6cd7-11f1-adb9-005056c00001",
+    "assigned_at": "2026-06-21 00:21:35",
+    "status": "Active",
+    "created_at": "2026-06-21 00:21:35",
+    "updated_at": "2026-06-21 00:21:35"
+  }
+]
