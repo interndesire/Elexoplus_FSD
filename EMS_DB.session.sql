@@ -565,4 +565,6 @@
 
 
 
-    SELECT * FROM user_roles;
+
+    -- SELECT * FROM leave_approvals;
+    -- SELECT * FROM user_roles;
